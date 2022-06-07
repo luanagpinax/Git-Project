@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap');
+
+body {
+    background-color: #171120;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    margin-top: 4px;
+}
+
+#thinking-box {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#characters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.max-characters {
+    color:#FF83CD;
+}
+
+.tweet-button {
+    background-color: #FF83CD;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 4700;
+    color: #ffffff;
+}
+
+#tweet {
+    display: flex;
+    border-bottom: 1px solid #71767b;
+    padding: 20px;
+}
+
+.your-avatar {
+    margin-right: 32px;
+    width: 35px;
+}
+
+.avatar-img {
+    margin-right: 20px;
+    width: 60px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.username {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 18px;
+    color: #71767b;
+    padding: 35px 0;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.heart {
+    padding-right: 15px;
+}
